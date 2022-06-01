@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/ibimina/blogr-landing-page-main)
-- Live Site URL: (https://ibimina.githb.io/blogr-page-main)
+- Live Site URL: (https://ibimina.github.io/blogr-page-main)
 
 ## My process
 
