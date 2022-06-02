@@ -81,7 +81,7 @@ Responsive mobile navigation
 
 - Ibimina Hart
 - Frontend Mentor - (https://www.frontendmentor.io/profile/ibimina)
-- Twitter - (https://www.twitter.com/ibiminaa)
+- Twitter - (https://www.twitter.com/ibiminaaH)
 
 
 
