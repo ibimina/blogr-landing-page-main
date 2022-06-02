@@ -328,12 +328,21 @@ footer li {
 
   ul.nav-links a:hover {
     border-bottom: 1px solid white;
+    font-weight: 600;
+    transition: .3s ease-in;
+    /* filter: brightness(10000px) contrast(5000%) hue-rotate(90deg); */
+
+  
   }
   .link {
     position: absolute;
     background-color: white;
     text-align: start;
     padding: 1rem 4rem 1rem 1rem;
+    box-shadow: 0px 3px 19px 1px  rgba(0,0,0,0.4);
+  }
+  .link li:hover{
+ font-weight: 600;
   }
   .link-one {
     left: -6rem;
@@ -358,12 +367,17 @@ footer li {
     color: hsl(356, 100%, 66%);
     background: white;
   }
+  .sign-up:hover{
+color: white;
+background-color: hsl(355, 100%, 74%);
+   
+  }
   .start {
     margin-right: 1rem;
   }
   .start:hover {
     color: white;
-    background-color: hsl(356, 100%, 66%);
+    background-color: hsl(355, 100%, 74%);
   }
   .learn:hover {
     background-color: white;
@@ -465,13 +479,16 @@ footer li {
     justify-content: space-between;
     grid-template-columns: repeat(4, 1fr);
     padding-inline: 7rem;
+  
   }
-  footer h4,footer ul li{
-    max-width: 90px;
-    width: 100%;
-    margin: 1px auto;
+  footer ul{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+  }
+  footer h4{
     text-align: start;
-   
+  
   }
   footer ul li {
     list-style: none;
